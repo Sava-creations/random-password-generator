@@ -1,0 +1,184 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box; /*when calucating width height disregard padings borders*/
+}
+
+  body{
+   background-color: #b2dcf0;
+   display:flex;
+  justify-content: center;
+}
+
+#container{
+    background-color: white;
+    border-radius:10px;
+    box-shadow: 0px 4px 6px; 
+    /* margin:50px;
+    padding:10px; */
+    /* width:90%;
+    max-width: 450px;
+    height:auto; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#requirements{
+  font-weight: bold;
+  border:1px solid #ccc;
+  color:#555;
+  /* width: 300px; */
+  /* padding: 10px;
+  margin-bottom:0px;  
+  padding: 10px; */
+  margin-bottom:0px;  
+} 
+
+h1{
+    text-align: center;
+    color:#333;
+    font-size: 2rem;
+}
+
+input[type='number']{
+  width: 3.2rem;
+}
+
+button{
+    font-weight: bold;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+   background-color:#0056b3;
+}
+
+button:active{
+   background-color:#003d80;
+}    
+
+
+.result {
+  display: flex;
+ 
+ 
+}
+
+.result img{
+  cursor:pointer;
+}
+
+#display{
+  border-color:#007bff;
+  background-color: #007bff;
+  color: white;
+  padding: 2px;
+  border-radius: 2px;
+  text-align: center;
+  overflow:auto;
+  
+}
+
+ 
+
+=======
+body{
+   background-color: #b2dcf0;
+=======
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box; /*when calucating width height disregard padings borders*/
+>>>>>>> 45c55a7 (copy)
+}
+
+  body{
+   background-color: #b2dcf0;
+   display:flex;
+  justify-content: center;
+}
+
+#container{
+    background-color: white;
+    border-radius:10px;
+    box-shadow: 0px 4px 6px; 
+    /* margin:50px;
+    padding:10px; */
+    /* width:90%;
+    max-width: 450px;
+    height:auto; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#requirements{
+  font-weight: bold;
+  border:1px solid #ccc;
+  color:#555;
+  /* width: 300px; */
+  /* padding: 10px;
+  margin-bottom:0px;  
+  padding: 10px; */
+  margin-bottom:0px;  
+} 
+
+h1{
+    text-align: center;
+    color:#333;
+    font-size: 2rem;
+}
+
+input[type='number']{
+  width: 3.2rem;
+}
+
+button{
+    font-weight: bold;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+   background-color:#0056b3;
+}
+
+button:active{
+   background-color:#003d80;
+}    
+
+/* p{
+   color: #333;
+   font-size: 15px;
+} */
+.result {
+  word-wrap: break-word; /* Ensures long words break and wrap onto the next line*/ 
+  display: flex;
+
+
+}
+<<<<<<< HEAD
+#result {
+  word-wrap: break-word; /* Ensures long words break and wrap onto the next line */
+}
+>>>>>>> e524442 (some changes)
+=======
+
+.result img{
+  cursor:pointer;
+}
+>>>>>>> 45c55a7 (copy)
