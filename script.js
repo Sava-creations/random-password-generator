@@ -3,6 +3,8 @@ const lowerCaseChars='abcdefghijklmnopqrstuvwxyz';
 const UppercaseChars= 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const numbers='0123456789';
 const symbols='!@#$%^&*()*';
+const hideOrshow=document.querySelector('.result');
+
 
 mySubmit.onclick=function(){
     const length= document.getElementById('length').value;
@@ -13,6 +15,9 @@ mySubmit.onclick=function(){
 
     error.textContent='';
     display.value='';
+    hideOrshow.style.display = 'none';
+
+    
 
     let allowedChars='';
     let password='';
@@ -21,19 +26,22 @@ mySubmit.onclick=function(){
     allowedChars+=includeNumbers ? numbers : '';
     allowedChars += includeSymbols ? symbols: '';
 
-    if (length<=0 || length>128 ) 
+    if (length<=0 || length>128 ) {
         error.textContent='The password length must be between 1 and 128 characters';
     
-    else if(allowedChars=='')
+    }
+    else if(allowedChars==''){
         error.textContent='At least 1 set of characters need to be included';
-
+   
+    }
     else{
         for(let i=0; i<length; i++){
         const randomIndex= Math.floor(Math.random()*allowedChars.length);
         password+=allowedChars[randomIndex];
         }
-
+    
     display.value=password;
+    hideOrshow.style.display = 'flex'; /*show the display*/
     }
 }
 
