@@ -38,14 +38,8 @@ mySubmit.onclick=function(){
 }
 
 copy.onclick=function(){
-<<<<<<< HEAD
     display.select();
     document.execCommand('copy');
 }
-=======
-    password.select();
-    document.execCommand('copy');
-}
 
-
->>>>>>> 45c55a7 (copy)
+   
